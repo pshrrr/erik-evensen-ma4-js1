@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html">
+ 
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Question 1</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <style>
+      .error {
+        color: red;
+        display: none;
+      }
+    </style>
+    <form id="contactForm">
+      <div>
+        <input
+          type="text"
+          id="firstName"
+          placeholder="First name (minimum 2 characters)"
+        />
+        <div id="firstNameError" class="error">
+          Your first name must be at least 2 characters
+        </div>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <div class="results"></div>
+    <script src="/script1.js"></script>
+  </body>
+</html>
